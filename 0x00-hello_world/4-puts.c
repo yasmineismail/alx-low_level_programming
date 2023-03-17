@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * The main function prints a message to the console.
- *
- * @return 0 indicating successful program execution.
+ * main - function prints a message to the console.
+ * Return: 0 indicating successful program execution.
  */
 int main(void)
 {
