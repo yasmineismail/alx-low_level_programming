@@ -1,26 +1,18 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
-  * print_number - print numbers
-  * @n: integer
-  * Return: void
- **/
-
-void print_number(int n)
+ * main - check code
+ * Return: 0
+*/
+int main(void)
 {
-	unsigned int n1;
+	int n;
+	int a[5];
+	int *p;
 
-	n1 = n;
+	a[2] = 1024;
+	p = &n;
 
-	if (n < 0)
-	{
-		_putchar('-');
-		n1 = -n;
-	}
-
-	if (n1 / 10 != 0)
-	{
-		print_number(n1 / 10);
-	}
-	_putchar((n1 % 10) + '0');
+	p[5] = 98;
+	printf("a[2] = %d\n", a[2]);
+	return (0);
 }
